@@ -19,7 +19,7 @@ pipeline{
             steps {
         
 		        withCredentials([string(credentialsId: 'DOCKER_PWD', variable: 'PASSWORD')]) {
-                    sh 'sudo docker login -u patelsaheb -p $PASSWORD'
+                    sh 'sudo docker login -u patelsaheb -p $qudwls89!'
                 }
             }
         }
