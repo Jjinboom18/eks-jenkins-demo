@@ -26,7 +26,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'sudo docker push patelsaheb/hellonodejs:eks'
+				sh 'sudo docker push chgg33/hellonodejs:eks'
 			}
 		}
 
